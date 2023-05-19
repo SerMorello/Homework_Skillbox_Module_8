@@ -12,7 +12,7 @@
         while (userAnswer == 1)
         {
             Console.WriteLine(SearchPerson(phoneBook));
-            Console.WriteLine("Еще ищем?");
+            Console.WriteLine("Еще ищем?\n\t1-да\n\t2-нет");
             userAnswer = Convert.ToInt32(Console.ReadLine());
         }
     }
